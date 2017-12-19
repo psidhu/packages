@@ -132,6 +132,7 @@ define Package/gpsd-clients/install
 		$(PKG_INSTALL_DIR)/usr/bin/gps{ctl,decode,mon,pipe} \
 		$(PKG_INSTALL_DIR)/usr/bin/gpxlogger \
 		$(PKG_INSTALL_DIR)/usr/bin/lcdgps \
+		$(PKG_INSTALL_DIR)/usr/bin/ntpshmmon \
 		$(1)/usr/bin/
 endef
 
